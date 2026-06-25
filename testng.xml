@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Booking Test Suite" parallel="false">
+
+    <test name="Booking Test - Chrome">
+
+        <!-- Browser parameter -->
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name="com.trivago.tests.BookingTest"/>
+        </classes>
+
+    </test>
+
+</suite>
